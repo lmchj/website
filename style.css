@@ -87,7 +87,7 @@ html {
 body {
 
     /*overflow cant be changed on body. since this type of styling is not for the body tag.*/
-    max-width: 1050px;
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
     background: var(--color256);
