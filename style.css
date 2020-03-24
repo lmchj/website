@@ -179,13 +179,11 @@ h2 {
 
 /* Blog entry: */
 
-/*i added a more red-ish and darker background here to make it easier on the eyes to seperate the blocks. and also to go with the red border a little better, as the blue on the left ties in the same way with the body*/
 .entry {
     padding: 10px;
     border-radius: 0 5px 18px 0;
     margin-bottom: 50px;
-    background: #1b1b1b;
-    border: 1px solid var(--color1);
+    background: var(--color256);
     border-left: 10px solid var(--color4);
 }
 .entry h2 {
