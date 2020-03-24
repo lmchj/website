@@ -177,6 +177,12 @@ h2 {
     height: 1.25em;
 }
 
+/* Images */
+
+img {
+  	border-radius: 50%;
+}
+
 /* Blog entry: */
 
 .entry {
