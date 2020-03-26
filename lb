@@ -21,7 +21,7 @@ fi
 
 newpost() { read -erp "Give a title for your post:
 	" title
-	daytitle="$(date "+%y%m%d")$title"
+	daytitle="$(date "+%Y%m%d")$title"
 	echo "$daytitle" | grep "\"" >/dev/null && printf "Double quotation marks (\") are not allowed in entry titles.\\n" && exit
 	url="$(echo "$daytitle" | iconv -cf UTF-8 -t ASCII//TRANSLIT | tr -d '[:punct:]' | tr '[:upper:]' '[:lower:]' | tr ' ' '-' | sed "s/-\+/-/g;s/\(^-\|-\$\)//g")"
 	echo "AddDescription \"$title\" \"$url.html\"" >> "$webdir/blog/.htaccess" || { echo "Error: Is htaccess writeable?"; exit; }
