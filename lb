@@ -1,7 +1,7 @@
 #!/bin/bash
 # The (l)ess (b)loated Luke Smith's script to manage a blog
 name="Luis Mario"
-webdir="$HOME/Website"
+webdir="$HOME/website"
 website="https://lmchaparroj.xyz/" # Keep a trailing slash.
 css="style.css"
 blogfile="2020.html"
@@ -28,8 +28,7 @@ newpost() { read -erp "Give a title for your post:
 	[ -f "$webdir/blog/.drafts/$url.html" ] && echo "There is already an existing draft entry of that same name/URL." && exit
 	[ -f "$webdir/blog/$url.html" ] && echo "There is already an existing published entry of that same name/URL." && exit
 	touch "$webdir/blog/.drafts/$url.html"
-	printf "<p>\\nSome content...\\n
-	</p>\\n" "$title" > "$webdir/blog/.drafts/$url.html"
+	printf "<p>\\nSome content...\\n</p>" "$title" > "$webdir/blog/.drafts/$url.html"
  
 	$EDITOR "$webdir/blog/.drafts/$url.html" ;}
 

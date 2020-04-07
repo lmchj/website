@@ -2,11 +2,11 @@
 # This is a script to generate a (n)ew (p)age
 # It generates a file and put a template on it
 
-webdir="$HOME/Website"
+webdir="$HOME/website"
 
 read -erp "Give a title for your new page:
 	" title
-	echo "$title" | grep "\"" >/dev/null && printf "Double quotation marks (\") are not allowed in entry titles.\\n" && exit
+	echo "$title" | grep "\"" >/dev/null && printf "Double quotation marks (\") are not allowed in page titles.\\n" && exit
 	url="$(echo "$title" | iconv -cf UTF-8 -t ASCII//TRANSLIT | tr -d '[:punct:]' | tr '[:upper:]' '[:lower:]' | tr ' ' '-' | sed "s/-\+/-/g;s/\(^-\|-\$\)//g")"
 	[ -f "$webdir/pages/$url.html" ] && echo "There is already an existing page with the same/URL." && exit
 	touch "$webdir/pages/$url.html"

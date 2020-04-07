@@ -184,12 +184,12 @@ footer {
 	padding: 5px;
 }
 
-/* Images
+/* Images*/
 
 img {
-  	border-radius: 50%;
+  	border-radius: 5%;
 }
-*/
+
 /* Blog entry: */
 
 .entry {
