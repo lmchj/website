@@ -59,7 +59,7 @@ publish() { \
 </head>\\n
 <body>\\n
 <h1>%s</h1>\\n
-<small>[<a href='%s#%s'>link</a>&mdash;<a href='%s'>standalone</a>]</small>\\n
+<small>[<a href='%s#%s'>Link</a>&mdash;<a href='%s'>Standalone</a>]</small>\\n
 %s\\n
 <footer>by <strong><a href='%s'>%s</a></strong></footer>\\n
 </body>\\n\\n
