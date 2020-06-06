@@ -94,7 +94,7 @@ confirm() { read -erp "Really $1 \"$base\"? (y/N) " choice && echo "$choice" | g
 delete() { \
 	sed -i "/<item/{:a;N;/<\\/item>/!ba};/#$base<\\/guid/d" $rssfile
 	sed -i "/<div class='entry'>/{:a;N;/<\\/div>/!ba};/id='$base'/d" $blogfile
-	sed -i "/<li>.*<a href=\"../blog\\/$base.html\">/d" $indexfile
+	sed -i "/<li>*<a href=\"../blog\\/$base.html\">/d" $indexfile
 	rm "$webdir/blog/$basefile" 2>/dev/null && printf "Old blog entry removed.\\n" ;}
 
 revise() { awk '/^<small>\[/{flag=1;next}/<footer>/{flag=0}flag' "$webdir/blog/$chosen" > "$webdir/blog/.drafts/$basefile"
