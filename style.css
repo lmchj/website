@@ -1,54 +1,198 @@
 :root {
-    --color0: #000000;
-    --color1: #FF5555;
-    --color2: #50FA7B;
-    --color3: #F1FA8C;
-    --color4: #BD93F9;
-    --color5: #FF79C6;
-    --color6: #8BE9FD;
-    --color7: #BFBFBF;
-    --color8: #4D4D4D;
-    --color9: #FF6E67;
-    --color10: #5AF78E;
-    --color11: #F4F99D;
-    --color12: #CAA9FA;
-    --color13: #FF92D0;
-    --color14: #9AEDFE;
-    --color15: #E6E6E6;
-    --color256: #282A36;
-    --color257: #F8F8F2;
+  /*
+  Base component color of "Polar Night".
+  Used for texts, backgrounds, carets and structuring characters like curly- and square brackets.
+  Markup:
+  <div style="background-color:#2e3440; width=60; height=60"></div>
+  Styleguide Nord - Polar Night
+  */
+  --nord0: #2e3440;
+
+  /*
+  Lighter shade color of the base component color.
+  Used as a lighter background color for UI elements like status bars.
+  Markup:
+  <div style="background-color:#3b4252; width=60; height=60"></div>
+  Styleguide Nord - Polar Night
+  */
+  --nord1: #3b4252;
+
+  /*
+  Lighter shade color of the base component color.
+  Used as line highlighting in the editor.
+  In the UI scope it may be used as selection- and highlight color.
+  Markup:
+  <div style="background-color:#434c5e; width=60; height=60"></div>
+  Styleguide Nord - Polar Night
+  */
+  --nord2: #434c5e;
+
+  /*
+  Lighter shade color of the base component color.
+  Used for comments, invisibles, indent- and wrap guide marker.
+  In the UI scope used as pseudoclass color for disabled elements.
+  Markup:
+  <div style="background-color:#4c566a; width=60; height=60"></div>
+  Styleguide Nord - Polar Night
+  */
+  --nord3: #4c566a;
+
+  /*
+  Base component color of "Snow Storm".
+  Main color for text, variables, constants and attributes.
+  In the UI scope used as semi-light background depending on the theme shading design.
+  Markup:
+  <div style="background-color:#d8dee9; width=60; height=60"></div>
+  Styleguide Nord - Snow Storm
+  */
+  --nord4: #d8dee9;
+
+  /*
+  Lighter shade color of the base component color.
+  Used as a lighter background color for UI elements like status bars.
+  Used as semi-light background depending on the theme shading design.
+  Markup:
+  <div style="background-color:#e5e9f0; width=60; height=60"></div>
+  Styleguide Nord - Snow Storm
+  */
+  --nord5: #e5e9f0;
+
+  /*
+  Lighter shade color of the base component color.
+  Used for punctuations, carets and structuring characters like curly- and square brackets.
+  In the UI scope used as background, selection- and highlight color depending on the theme shading design.
+  Markup:
+  <div style="background-color:#eceff4; width=60; height=60"></div>
+  Styleguide Nord - Snow Storm
+  */
+  --nord6: #eceff4;
+
+  /*
+  Bluish core color.
+  Used for classes, types and documentation tags.
+  Markup:
+  <div style="background-color:#8fbcbb; width=60; height=60"></div>
+  Styleguide Nord - Frost
+  */
+  --nord7: #8fbcbb;
+
+  /*
+  Bluish core accent color.
+  Represents the accent color of the color palette.
+  Main color for primary UI elements and methods/functions.
+  Can be used for
+    - Markup quotes
+    - Markup link URLs
+  Markup:
+  <div style="background-color:#88c0d0; width=60; height=60"></div>
+  Styleguide Nord - Frost
+  */
+  --nord8: #88c0d0;
+
+  /*
+  Bluish core color.
+  Used for language-specific syntactic/reserved support characters and keywords, operators, tags, units and
+  punctuations like (semi)colons,commas and braces.
+  Markup:
+  <div style="background-color:#81a1c1; width=60; height=60"></div>
+  Styleguide Nord - Frost
+  */
+  --nord9: #81a1c1;
+
+  /*
+  Bluish core color.
+  Used for markup doctypes, import/include/require statements, pre-processor statements and at-rules (`@`).
+  Markup:
+  <div style="background-color:#5e81ac; width=60; height=60"></div>
+  Styleguide Nord - Frost
+  */
+  --nord10: #5e81ac;
+
+  /*
+  Colorful component color.
+  Used for errors, git/diff deletion and linter marker.
+  Markup:
+  <div style="background-color:#bf616a; width=60; height=60"></div>
+  Styleguide Nord - Aurora
+  */
+  --nord11: #bf616a;
+
+  /*
+  Colorful component color.
+  Used for annotations.
+  Markup:
+  <div style="background-color:#d08770; width=60; height=60"></div>
+  Styleguide Nord - Aurora
+  */
+  --nord12: #d08770;
+
+  /*
+  Colorful component color.
+  Used for escape characters, regular expressions and markup entities.
+  In the UI scope used for warnings and git/diff renamings.
+  Markup:
+  <div style="background-color:#ebcb8b; width=60; height=60"></div>
+  Styleguide Nord - Aurora
+  */
+  --nord13: #ebcb8b;
+
+  /*
+  Colorful component color.
+  Main color for strings and attribute values.
+  In the UI scope used for git/diff additions and success visualizations.
+  Markup:
+  <div style="background-color:#a3be8c; width=60; height=60"></div>
+  Styleguide Nord - Aurora
+  */
+  --nord14: #a3be8c;
+
+  /*
+  Colorful component color.
+  Used for numbers.
+  Markup:
+  <div style="background-color:#b48ead; width=60; height=60"></div>
+  Styleguide Nord - Aurora
+  */
+  --nord15: #b48ead;
 }
-li img {
-    height: 1.25em;
+
+h1 {
+    color: var(--nord4);
+    font-weight: Bold;
+    /*text-shadow: -1px 3px 3px rgba(0, 0, 0, 0.68);*/
+    text-align: center;
+    margin-bottom: 1em
 }
 h1 img {
     height: 1em;
 }
+
+h2 {
+    color: var(--nord5);
+    font-weight: normal;
+}
 h2 img {
     height: 1em;
 }
+
 h3 {
-    color: var(--color1);
-}
-h3 img {
+    color: var(--nord6);
+    margin-top: 3em;
     height: 1em;
 }
 
+li img {
+    height: 1.25em;
+}
+
+
 html {
-
-    /*
-    this really isnt best practice to style directly on <html>. this SHOULD be the style of the <body>
-    and whats on <body>, should rahter be on a <div>, or a <main>.
-
-    cool to see you use css variables, such a new thing. but still you hold on to a bit of boomer stuff in other parts. sneaky, and i respect it.
-    */
-
-	background-color: var(--color8);
+	background-color: var(--nord0);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 25px;
-    font-family: helvetica, sans-serif;
+    font-family: Monaco, monospace;
 }
 
 .mainpanel {
@@ -63,15 +207,15 @@ html {
 .sidepanel {
     float: left;
     max-width: 300px;
-    background-color: var(--color256);
+    background-color: var(--nord0);
     padding: 2px;
     border-radius: 0 10px 30px 0;
 }
 .sidepanel a {
-    color: #85631b;
+    color: var(--nord11);
 }
 .sidepanel a:hover {
-    color: #d89e23;
+    color: var(--nord13);
 }
 .sidepanel ul li {
     font-size: 20px;
@@ -85,12 +229,10 @@ html {
 
 
 body {
-
-    /*overflow cant be changed on body. since this type of styling is not for the body tag.*/
-    max-width: 800px;
+    max-width: 700px;
     margin-left: auto;
     margin-right: auto;
-    background: var(--color256);
+    background: var(--nord0);
         padding: 15px;
     /*
     using different ways of shaddows to work in other browsers
@@ -99,17 +241,17 @@ body {
     /*-webkit-box-shadow: 0px 0px 13px 6px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 13px 6px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 13px 6px rgba(0, 0, 0, 0.75);*/
-    color: var(--color15);
+    color: var(--nord6);
     border-radius: 5px;
     margin-top: 6em!important;
     border: solid 1px;
 }
 a {
-    color: var(--color6);
+    color: var(--nord13);
     text-decoration: none;
 }
 a:hover {
-    color: var(--color12);
+    color: var(--nord12);
 }
 
 a:hover img {
@@ -118,18 +260,6 @@ a:hover img {
     transform: scale(1.4, 1.4);
 }
 
-h1 {
-    color: var(--color4);
-    font-weight: Bold;
-    /*text-shadow: -1px 3px 3px rgba(0, 0, 0, 0.68);*/
-    text-align: center;
-    margin-bottom: 1em
-}
-
-h2 {
-    color: var(--color3);
-    font-weight: normal;
-}
 .imgcont {
     text-align: center;
     position: relative;
@@ -147,7 +277,7 @@ h2 {
     display: none;
 }
 .qr:hover {
-    color: goldenrod;
+    color: var(--nord12);
 }
 .qr:hover .hiddiv {
     display: block;
@@ -167,7 +297,7 @@ h2 {
     text-align: center;
     margin: auto;
     max-width: 600px;
-    background-color: var(--color256);
+    background-color: var(--nord0);
     padding: 5px;
     border-radius: 10px;
     /* margin-bottom: 6em */
@@ -179,7 +309,7 @@ h2 {
 
 /* Footer */
 footer {
-	border: 1px solid var(--color10);
+	border: 1px solid var(--nord10);
 	border-radius: 5px;
 	padding: 5px;
 }
@@ -196,14 +326,14 @@ img {
     padding: 10px;
     border-radius: 0 5px 18px 0;
     margin-bottom: 50px;
-    background: var(--color256);
-    border-left: 10px solid var(--color4);
+    background: var(--nord0);
+    border-left: 10px solid var(--nord4);
 }
 .entry h2 {
     margin: 5px auto 2px auto;
 }
 .entry small {
-    color: var(--color15);
+    color: var(--nord15);
 }
 footer strong {
     font-weight: bold;
@@ -242,20 +372,17 @@ figcaption {
     max-width: 175px;
 }
 code {
-    color: var(--color2);
+    color: var(--nord15);
     overflow-x: auto;
 }
 
-h3 {
-    margin-top: 3em;
-}
 
 /*align is not always supported anymore so i tend to just use 'auto' on left and right margin if you arent using flexbox or grid*/
 pre {
     margin: auto;
     margin-top: 3em;
-    background: var(--color256);
-    border: 1px solid var(--color8);
+    background: var(--nord0);
+    border: 1px solid var(--nord0);
     border-radius: 4px;
     padding: 5px;
     display: block;
