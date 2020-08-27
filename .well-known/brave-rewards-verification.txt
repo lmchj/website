@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: lmchaparroj.xyz
+Token: 828c533fc96959f65614fb0299ad2e38af4c2a3d6c477718b8d2cbde731473ec
