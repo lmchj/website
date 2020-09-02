@@ -1,7 +1,7 @@
 #!/bin/bash
 # The (l)ess (b)loated Luke Smith's script to manage a blog
 name="Luis Mario"
-webdir="$HOME/website"
+webdir="$HOME/documents/website"
 website="https://lmchaparroj.xyz/" # Keep a trailing slash.
 css="style.css"
 blogfile="2020.html"

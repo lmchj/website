@@ -2,7 +2,7 @@
 # This is a script to generate a (n)ew (p)age
 # It generates a file and put a template on it
 
-webdir="$HOME/website"
+webdir="$HOME/documents/website"
 
 read -erp "Give a title for your new page:
 	" title
