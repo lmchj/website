@@ -7,7 +7,8 @@ css="style.css"
 blogfile="2020.html"
 indexfile="pages/blogindex.html"
 rssfile="rss.xml"
-[ -z "$EDITOR" ] && EDITOR="vim"
+
+[ -z "$EDITOR" ] && EDITOR="nvim"
 
 [ ! -d "$webdir/blog/.drafts" ] &&
 read -erp "Initialize blog in $webdir?" ask &&
