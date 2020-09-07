@@ -19,4 +19,106 @@
   --nord13: #ebcb8b;
   --nord14: #a3be8c;
   --nord15: #b48ead;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+body {
+  background: var(--nord0);
+  color: var(--nord6);
+
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  color: var(--nord15);
+}
+
+a:hover {
+  color: var(--nord10);
+}
+
+h1 {
+  color: var(--nord11);
+  text-align: center;
+}
+
+h2 {
+  color: var(--nord12);
+}
+
+h3 {
+  color: var(--nord13);
+}
+
+nav {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: larger;
+    text-align: center;
+}
+
+/* navbar for sites on the top*/
+
+
+.navbar {
+  overflow: hidden;
+  background-color var(--nord1);
+}
+
+
+.navbar a {
+  float: left;
+  color: var(--nord15);
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 16px;
+}
+
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  color: var(--nord15);
+  padding: 14px 16px;
+  border: none;
+  outline: none;
+  margin: 0;
+  background-color: var(--nord1);
+  font-family: inherit;
+  font-size: 16px;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: var(--nord15);
+  color: var(--nord0);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--nord2);
+  z-index: 1;
+  text-align: left;
+}
+
+.dropdown-content a {
+  color: var(--nord6);
+  display: block;
+  float: none;
+  padding: 12px 16px;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: var(--nord3);
+  color: var(--nord6);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }

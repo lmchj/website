@@ -8,18 +8,21 @@
 </head>
 
 <body>
-	<h1>
-		<big>Luis Mario Chaparro Jáquez</big>
-	</h1>
+	<h1>Luis Mario Chaparro Jáquez</h1>
+
 	<div>
 		<center>I like maths and bikes.</center>
 	</div>
+
+	<br>
+
 	<div id="links">
+		<center>
 		<a href="https://github.com/lmchj" target="_blank">
 			<img src="pics/icons/github.svg" alt="Github">
 		</a>
 		<a href="https://gitlab.com/lmchj" target="_blank">
-			<img src="pics/icons/gitlab.svg" alt="Github">
+			<img src="pics/icons/gitlab.svg" alt="Gitlab">
 		</a>
 		<a href="https://twitter.com/maths_poser" target="_blank">
 			<img src="pics/icons/twitter.svg" alt="Twitter">
@@ -27,30 +30,68 @@
 		<a href="https://www.linkedin.com/in/lmchj" target="_blank">
 			<img src="pics/icons/linkedin.svg" alt="LinkedIn">
 		</a>
-		<br>
-		<div>
-			BLOG:
-			<a href="pages/blogindex.html">
-			[Index]
-			</a>
-			<a href="2020.html">
-			[Rolling]
-			</a>
-		</div>
-		<div id="cat">
-			Academic:
-			<a href="https://scholar.google.com/citations?user=nxA6K9YAAAAJ&hl=en" target="_blank">
-				[Google Scholar]
-			</a>
-			<a href="https://orcid.org/0000-0003-3913-4869" target="_blank">
-				[ORCID]
-			</a>
-		</div>
+	    </center>
 	</div>
+
+	  <div class="navbar">
+
+	    <div class="dropdown">
+	      <button class="dropbtn">BLOG</button>
+	      <div class="dropdown-content">
+          	<a href="pages/blogindex.html">Index</a>
+          	<a href="2020.html">Rolling</a>
+          </div>
+	    </div>
+
+	    <div class="dropdown">
+	      <button class="dropbtn">Academic</button>
+
+	      <div class="dropdown-content">
+          	<a href="https://scholar.google.com/citations?user=nxA6K9YAAAAJ&hl=en" target="_blank">Google Scholar</a>
+          	<a href="https://orcid.org/0000-0003-3913-4869" target="_blank">ORCID</a>
+          	<a href="pages/class-notes.html" target="_blank">Notes</a>
+          </div>
+	    </div>
+
+	    <div class="dropdown">
+	      <button class="dropbtn">Being human</button>
+	      <div class="dropdown-content">
+          	<a href="pages/gardening.html" target="_blank">Gardening</a>
+          </div>
+	    </div>
+
+	    <div class="dropdown">
+	      <button class="dropbtn">Recomendations</button>
+	      <div class="dropdown-content">
+          	<a href="pages/books.html" target="_blank">Books</a>
+          	<a href="pages/podcasts.html" target="_blank">Podcasts</a>
+          </div>
+	    </div>
+
+		<div class="dropdown">
+			<button class="dropbtn"><a href="./pages/donate.html">Donate</a></button>
+			<div class="dropdown-content">
+			  <a href="https://paypal.me/lmchj" target="_blank">
+				  <img src="./pics/icons/paypal.svg" alt="paypal" width="14px" height="14px">
+				  Paypal
+			  </a>
+			  <a href="./pics/btc.png">
+				  <img src="./pics/icons/bitcoin.svg" alt="btc" width="14px" height="14px">
+				  BTC QR
+			  </a>
+			  <a href="./pics/bat.png">
+				  <img src="./pics/icons/bat.svg" alt="bat" width="14px" height="14px">
+				  BAT QR
+			  </a>
+			</div>
+		</div>
+
+	  </div>
+
 	<h2>
 		Welcome!
 	</h2>
-	<img style="float:right;margin:10px" src="pics/lm.jpg" height="200" width="200" alt="Le apodan el LM, otros le dicen padrino 🎼">
+	<img style="float:right;margin:10px;outline: var(--nord9) solid 2px" src="pics/lm.jpg" height="200" width="200" alt="Le apodan el LM, otros le dicen padrino 🎼">
 	<p>
 		My name is Luis Mario Chaparro Jáquez.
 		You can call me LM.
@@ -64,13 +105,12 @@
 			<ul>
 				<li> mountain biking, </li>
 				<li> gardening, </li>
-				<li> collecting maps, </li>
 				<li> *Linux and FOSS. </li>
 			</ul>
 		</li>
+		<!--<img style="left;margin:10px" src="pics/gifs/bike.gif" height="50" width="500" alt="bike">-->
 		<li>
-			I am a mathematical engineer, hoping to put my path back together and become a mathematician.
-			In that regard I am interested in
+			I am a mathematical engineer interested in:
 			<ul>
 				<li> probability theory, </li>
 				<li> mathematical analysis, </li>
@@ -78,76 +118,22 @@
 				<li> data science and data viz. </li>
 			</ul>
 		</li>
-	</ul>
-
-	<p>
-	Then, the things I put over here are my
-	<a href="2020.html" target="_blank">blog</a>
-	and the following:
-	</p>
-
-	<!--
-	<h3>
-		Academic content
-	</h3>
-	<p>
-	Here are some of the things I do about mathematics.
-	</p>
-	<ul>
-		<li>
-		<a href="pages/class-notes">Class notes</a>.
-		</li>
-	</ul>
-	-->
-
-	<h3>
-		Being human
-	</h3>
-
-	<p>
-	Some of the things I want to share about me.
-	</p>
-
-	<ul>
-		<li>
-		<a href="pages/gardening" target="_blank">Gardening, farming and reforestation.</a>
-		</li>
-	</ul>
-
-	<h3>
-		Recomendations
-	</h3>
-	<p>
-	Here I compile some recommendations about books, music, and whatnot.
-	</p>
-	<ul>
-		<li>
-			Some nice
-			<a href="pages/books.html">Books</a>.
-		</li>
-		<li>
-			<a href="pages/podcasts.html">Podcasts</a>
-			worth listening.
-		</li>
+		<!--<img style="right;margin:10px" src="pics/gifs/fibrandomtree.gif" height="50" width="50" alt="tree">-->
 	</ul>
 
 	<footer>
 		<center>
-			<div>
-				<img src="pics/icons/dollar-sign.svg" alt="Donate">
-				Donate
-				<a href="https://paypal.me/lmchj" target="_blank">here</a>.
-			</div>
-			<div>
-			<img src="pics/icons/mail.svg" alt="Mail">
-			Email me at
-			<a href="mailto:lmchaparroj@tutanota.com">lmchaparroj@tutanota.com</a>
-			</div>
-
-			<div>
-				<img src="pics/icons/rss.svg" alt="RSS">
-				RSS for oLd ScHoOL teens <a href="https://lmchaparroj.xyz/rss.xml" target="_blank">https://lmchaparroj.xyz/rss.xml</a>
-			</div>
+			<img src="./pics/icons/mail.svg" height="14px" width="14px">
+			Email me at 
+			<a href="mailto:lmchaparroj@tutanota.com">
+			lmchaparroj@tutanota.com
+			</a>
+			<br>
+			<img src="./pics/icons/rss.svg" height="14px" width="14px">
+			RSS for my blog
+			<a href="https://lmchaparroj.xyz/rss.xml" target="_blank">
+			https://lmchaparroj.xyz/rss.xml
+			</a>
 		</center>
 	</footer>
 </body>
