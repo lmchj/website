@@ -10,26 +10,5 @@ read -erp "Give a title for your new page:
 	url="$(echo "$title" | iconv -cf UTF-8 -t ASCII//TRANSLIT | tr -d '[:punct:]' | tr '[:upper:]' '[:lower:]' | tr ' ' '-' | sed "s/-\+/-/g;s/\(^-\|-\$\)//g")"
 	[ -f "$webdir/$url.html" ] && echo "There is already an existing page with the same/URL." && exit
 	touch "$webdir/$url.html"
-	printf "<!DOCTYPE html>\\n
-<html lang="en">\\n
-<head>\\n
-<title>%s</title>\\n
-<link rel="stylesheet" type="text/css" href="style.css">\\n
-<meta charset=utf-8>\\n
-<center><a href="index.html">[HOME]</a></center>\\n
-<link rel="icon" href="pics/icons/lm.ico">\\n
-</head>\\n
-<body>\\n
-<h1>
-%s
-</h1>\\n
-<p>\\n
-Some content...\\n
-</p>\\n
-<div>\\n
-<center>\\n
-<a href="index.html">[HOME]</a>\\n
-</center>\\n
-</div>\\n
-</body>" "$title" "$title" > "$webdir/$url.html"
+	printf "<!DOCTYPE html>\\n<html lang="en">\\n<head>\\n<title>%s</title>\\n<link rel="stylesheet" type="text/css" href="style.css">\\n<meta charset=utf-8>\\n<center><a href="index.html">[HOME]</a></center>\\n<link rel="icon" href="pics/icons/lm.ico">\\n</head>\\n<body>\\n<h1>%s</h1>\\n<p>\\nSome content...\\n</p>\\n<div>\\n<center>\\n<a href="index.html">[HOME]</a>\\n</center>\\n</div>\\n</body>" "$title" "$title" > "$webdir/$url.html"
 	$EDITOR "$webdir/$url.html" ;
