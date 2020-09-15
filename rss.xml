@@ -11,6 +11,41 @@
 
 <!-- LB -->
 
+<item>
+<title>Failing on email server</title>
+<guid>https://lmchaparroj.xyz/2020.html#20200912failing-on-email-server</guid>
+<pubDate>Sat, 12 Sep 2020 14:13:48 -0600</pubDate>
+<description><![CDATA[
+<p>
+Yesterday on a moment when I was running away from my job, I decided to follow
+<a href="ihttps://www.youtube.com/watch?v=9zP7qooM4pY" target="_blank">Luke's tutorial</a>
+to setup an email server on a VPS, but I kind of failed.
+</p>
+
+<p>
+Actually my attempt was not that bad, since everything ran smoothly and had problems on the rDNS, which associates my domain weirdly.
+I think that actually it has to be with the fact that my droplet name on DigitalOcean was wrong, and as I changed it might not just work like that.
+</p>
+
+<p>
+I will wait a couple of days, because often new IPs get banned from Gmail and Outlook and such big companis that hate people.
+So that if on a couple of days my emails to them keep getting rejected or on their spam folder, then on the next weekend I will try to make my email server again.
+I want to make a CalDAV and CardDAV server with
+<a href="https://radicale.org/3.0.html" target="_blank">radicale</a>,
+so that I might do that today, it seems really easy.
+</p>
+
+<p>
+Also I added this new page about
+<a href="../fuera-de-la-caverna.html">my podcast</a>
+and also updated the page of
+<a href="../podcasts.html">podcasts recommendations</a>.
+I hope you like them.
+</p>
+]]></description>
+</item>
+
+
 
 <item>
 
