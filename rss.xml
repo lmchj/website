@@ -12,7 +12,68 @@
 <!-- LB -->
 
 <item>
-<title>I will use Windows now</title>
+<title>Voy a tirar blog en español y cosas a hacer con este VPS</title>
+<guid>https://lmchaparroj.xyz/blog/</guid>
+<pubDate>Thu, 29 Oct 2020 12:03:23 -0700</pubDate>
+<description><![CDATA[
+<p>
+Bueno, desde siempre he tirado blog en inglés porque soy un poser y ya.
+Sin embargo en sí el inglés no me encanta, simplemente mucho del contenido que consumo es en inglés y fue la razón por la que terminé cayendo en el mismo meme, entonces creo que estaría bien hacer cosas en español.
+De hecho llevo un tiempo queriendo hacer que mi página en general tenga una opción para ver las páginas principales en español o en inglés dependiendo de lo que tú elijas, pero tres cosas me detienen:
+
+<ul>
+	<li>No estoy seguro como hacerlo eficientemente,</li>
+	<li>creo que habilitar la opción de que se ponga en inglés o español dependiendo de tu IP es medio invasivo y personalmente me caga que las páginas hagan eso, y finalmente</i>
+	<li>me da una flojera increíble</i>
+</ul>
+
+Entonces creo que seguiré posponiendo ese proyecto un poco.
+</p>
+
+<p>
+Algo que no quiero posponer es sacarle jugo a mi VPS (Virtual Private Server).
+Sucede que en sí el mercado de los VPSs parece basarse en que los usuarios usualmente no le sacan el potencial debido, y no quiero estar pagando USD $5 nomás para hostear un sitio web todo miado.
+Entonces, ya he mencionado que quiero hacer un servidor de correo electrónico y lo hice hace unas semanas, y de hecho no estuvo tan mal, sin embargo los proveedores de correo electrónico gigantes y malvados continuaban mandando mis correos a spam, y más o menos descubrí porqué fue eso, pero aún estoy reuniendo valor para intentarlo de nuevo.
+Otra cosa que pienso hacer es una VPN (Virtual Private Network) para usarla yo y mi familia.
+Quizá una instancia de
+<a href="https://owncloud.com/" target="_blank">ownCloud</a>
+para guardar únicamente algunos archivos importantes que me gusta tener a la mano todo el tiempo.
+He pensado en
+<a href="https://nextcloud.com/" target="_blank">Nextcloud</a>
+pero para mi caso de uso creo que está de más.
+Sin embargo con una instancia de Nextcloud me ahorraría el setupear aparte el servidor de calendario y contactos, que pensaba hacer con
+<a href="https://radicale.org/3.0.html" target="_blank">Radicale</a>
+pero también
+<a href="https://www.baikal-server.com/" target="_blank">Baïkal</a>
+se ve muy interesante y su documentación se ve muy amigable, entonces voy a estudiarlos poquito a ver qué me gusta.
+También quiero hacer un servidor de Git y una instancia de
+<a href="https://searx.me/" terget="_blank">searX</a>
+esas dos son ridículamente sencillas de hacer, por lo que no tengo idea porque lo estoy posponiendo tanto.
+</p>
+
+<p>
+En general todo lo he pospuesto aunque ya más o menos tengo idea de cómo hacerlo.
+Lo más complicado es el servidor de email, pero casi lo logré la última vez.
+Como que me da miedo cagarla en el server, pero igual si la cago lo reconstruyo y ya, no importa.
+Como diría mi compa el Dwight:
+<blockquote>
+	I'm just tired, days are short. Maybe I'm depressed.
+</blockquote>
+</p>
+
+<p>
+Ah también me urge arreglar mi sistema de blog porque lo rompí gg.
+</p>
+
+<p>
+En fin, ahí estamos, chidote.
+</p>
+]]></description>
+</item>
+
+
+<item>
+<title>I miss pacman</title>
 <guid>https://lmchaparroj.xyz/blog/20201027i-miss-pacman.html</guid>
 <pubDate>Tue, 27 Oct 2020 11:13:11 -0700</pubDate>
 <description><![CDATA[
@@ -139,7 +200,7 @@ they seem reliable, but I don't know, I want my own thing.
 <guid>https://lmchaparroj.xyz/2020.html#20201021music-keep-talkin-by-yoko-miwa-trio</guid>
 <pubDate>Wed, 21 Oct 2020 13:06:21 -0600</pubDate>
 <description><![CDATA[
-<img style="float:right;margin:10px;outline: var(--nord9) solid 2px" src="pics/music-ymkp.jpg" height="200" width="200" alt="yoko miwa's keep talkin album art">
+<img style="float:right;margin:10px;outline: var(--nord9) solid 2px" src="pics/music-ymkp.jpg" height="200" width="200" alt="Yoko Miwa's Keep Talkin' album cover">
 
 <p>
 This is an album that I have had on my head for a lot of time.
@@ -148,7 +209,7 @@ I think I first listened to it on July or something like that.
 
 <p>
 <b>It is just incredible!</b>
-<img src="pics/gifs/love.gif" alt="love it">
+<img src="pics/gifs/love.gif" alt="Love it">
 </p>
 
 <p>
