@@ -1,2 +1,2 @@
 #!/bin/bash
-rsync -avrP --delete-after --exclude={'s_wu','s_lb','s_np','.git'} ./ root@lmchaparroj.xyz:/var/www/website
+rsync -avrP --delete-after --exclude={'s_wu','s_lb','s_np','.git'} ./ root@lmcj.xyz:/var/www/website
