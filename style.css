@@ -62,58 +62,6 @@ h3 {
   color: var(--nord13);
 }
 
-/* menu bar */
-nav {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
-.menubar li a {
-    display: block;
-}
-
-.menubar {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    zoom:1;
-}
-
-.menubar li {
-	display: block;
-	float: left;
-	width: 130px;
-    min-height: 1.5em;
-    background: var(--nord1);
-    padding: 3px;
-    margin: 4px;
-}
-
-.menubar li:hover {
-    background: var(--nord2);
-	color: var(--nord5);
-}
-
-.menubar li ul {
-	visibility: hidden;
-	position: absolute;
-	padding-top: 10px;
-}
-
-.menubar li:hover ul {
-	visibility: visible;
-    padding-left: 0;
-    margin-left: -7px;
-}
-
-.menubar li ul li {
-    float: none;
-    position: relative;
-    width: 130px;
-    text-align: center;
-}
-
 /* image gallery */
 div.gallery {
   margin: 5px;
