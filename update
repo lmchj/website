@@ -1,0 +1,2 @@
+#!/bin/bash
+rsync -avrP --delete-after --exclude={'update','lb','.git'} ./ soopari@lmcj.xyz:/var/www/website
