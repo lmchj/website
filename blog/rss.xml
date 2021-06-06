@@ -27,6 +27,61 @@
 
 <!-- LB -->
 <item>
+<title>Actualizaciones mínimas</title>
+<link>https://blog.lmcj.xyz/entries/2021-06-06-actualizaciones-minimas.html</link>
+<guid isPermaLink="true">https://blog.lmcj.xyz/entries/2021-06-06-actualizaciones-minimas.html</guid>
+<pubDate>Sun, 06 Jun 2021 13:38:25 +0100</pubDate>
+<description>Hice una galería de English breakfast, modifiqué ligeramente las paletas de colores y ahora hay static.lmcj.xyz para servir el contenido más fácil.</description>
+<content:encoded><![CDATA[
+<!-- Remember to not add h1 headers, only h2 in advance -->
+<p>
+Esta semana fallé al hacer un servidor de calendario y contactos con
+<a href="https://radicale.org/3.0.html" target="_blank">Radicale</a>.
+Aunque realmente no es tanto problema y se arregla pronto, ya que solamente es un problema de que Radicale por default toma el puerto 5232 pero a la hora de que quieres mandarlo con Nginx para afuera, ese puerto no se puede usar.
+Total ya medio entendí como está el pedo y no debo tardar en arreglarlo.
+</p>
+
+<p>
+También como quizá se note, cambié un poquitín las paletas de colores y ando estrenando el
+<code>static.lmcj.xyz</code>
+por lo que ando acomodando todos los links relativos para que el contenido común sea servido desde ahí.
+</p>
+
+<p>
+Necesito ponerme en serio a modificar el CSS, creo que el que está mejorcito es el del blog, pero aún hay que moverle.
+También quiero poner una manera de que se puedan ver las fotos en las galerías como una especie de presentación, pero hacerlo en CSS no es de un día, y no pienso usar JS.
+Muchas de las soluciones con puro CSS usan dos sets de imágenes:
+thumbnails y fotos de verdad, pero sí se me hace muy marrano hacerlo así, entonces vamos a encontrar una forma bonita.
+Lo que ando buscando es algo similar a
+<a href="https://codepen.io/pieter-biesemans/pen/xQOgxx" target="_blank">esto</a>
+el problema es que esta persona usa
+<code>Pug</code>
+y
+<code>SCSS</code>,
+y como la neta no sé qué pedo con eso mejor otro día.
+</p>
+
+<p>
+Hablando de galerías, decidí hacer una al estilo
+<a href="https://www.youtube.com/watch?v=RMfjcaNq8rk" target="_blank">Ron Swanson</a>
+pero con English breakfasts, entonces eso pueden venir a verlo
+<a href="https://gallery.lmcj.xyz/eb.html"><strong>AQUÍ</strong></a>.
+De nuevo, aún las galerías no están al 100 pero ya en eso ando.
+</p>
+
+<p>
+No logré jugar con ningún window manager esta semana al grado de tenerlo funcional, le tocaba a
+<code>bspwm</code>
+ya que es el que más he usado de los que tengo alternativos.
+Pero como no me gustó esa configuración la comentaré luego.
+</p>
+
+<p>
+Y pues ya, chidote.
+</p>
+]]></content:encoded>
+</item>
+<item>
 <title>¡Se reinició el blog!</title>
 <link>https://blog.lmcj.xyz/entries/2021-05-30-se-reinicio-el-blog.html</link>
 <guid isPermaLink="true">https://blog.lmcj.xyz/entries/2021-05-30-se-reinicio-el-blog.html</guid>

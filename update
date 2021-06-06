@@ -1,0 +1,5 @@
+#!/bin/bash
+rsync -avrP --delete-after --exclude={'update',} ./lmcj/ soopari@lmcj.xyz:/var/www/website
+rsync -avrP --delete-after --exclude={'update','lb'} ./blog/ soopari@lmcj.xyz:/var/www/blog
+rsync -avrP --delete-after --exclude={'update'} ./gallery/ soopari@lmcj.xyz:/var/www/gallery
+rsync -avrP --delete-after --exclude={'update'} ./static/ soopari@lmcj.xyz:/var/www/static
