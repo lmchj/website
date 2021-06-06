@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="rss.css" ?>
+<rss version="2.0"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/">
+
+	<channel>
+		<title>El blog del LM</title>
+		<link>http://blog.lmcj.xyz/rss.xml</link>
+		<atom:link href="http://blog.lmcj.xyz/rss.xml" rel="self" type="application/rss+xml" />
+		<description> Aquí nomás está el blog. Aquí van entradas generales sobre mi existencia y así. </description>
+		<language>es-mx</language>
+		<category>Blog</category>
+		<copyright>Copyright 2021 Luis Mario Chaparro Jáquez</copyright>
+		<managingEditor>elem@lmcj.xyz (Luis Mario Chaparro Jáquez)</managingEditor>
+		<webMaster>elem@lmcj.xyz (Luis Mario Chaparro Jáquez)</webMaster>
+		<pubDate>Dom, 30 Mayo 2021 17:37:28 GMT</pubDate>
+		<lastBuildDate>Dom, 30 Mayo 2021 17:37:28 GMT</lastBuildDate>
+			<!--<generator></generator>-->
+		<docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+		<ttl>30</ttl>
+		<!--<image>
+			<url>https://static.luevano.xyz/images/blog.png</url>
+			<title>Luévano's Blog</title>
+			<link>https://blog.luevano.xyz</link>
+		</image>-->
+
+<!-- LB -->
+<item>
+<title>¡Se reinició el blog!</title>
+<link>https://blog.lmcj.xyz/entries/2021-05-30-se-reinicio-el-blog.html</link>
+<guid isPermaLink="true">https://blog.lmcj.xyz/entries/2021-05-30-se-reinicio-el-blog.html</guid>
+<pubDate>Sun, 30 May 2021 22:36:17 +0100</pubDate>
+<description>Reinicié el blog, lo puse en español y ya tiene un RSS de verdad. Además vamos a calar Window Managers.</description>
+<content:encoded><![CDATA[
+<!-- Remember to not add h1 headers, only h2 in advance -->
+<p>
+Esta semana por fin pude mover de nuevo la página y lo que tocó fue reiniciar el blog.
+</p>
+
+<p>
+Sucede que
+<a href="https://luevano.xyz" target="_blank"><strong>EL DAVID</strong></a>
+me andaba miando el blog porque no tenía un RSS bien hecho.
+Es decir, tenía la plantilla que utiliza el Luke Smith, pero como el Luke derrepente hace las cosas con las patas, pues algunas cosas no estaban como deben.
+Por ejemplo tenía el contenido correspondiente a
+<code>content:encoded</code>
+en
+<code>description</code>
+además de que como yo hice unos modificaciones sin mucho cuidado me había saltado el
+<code>GUID</code>
+y pues eso sí no está cul.
+</p>
+
+<p>
+Pensaba hacer un montón de cosas hoy, pero no pensé que mi script estuviera tan mal puesto, en primera porque el Luke ya tenía unas cosas mal y en segunda porque cuando hice modificaciones las hice con las patas.
+</p>
+
+<p>
+Voy a publicar esta entrada y quizá en seguida me mueva la paleta de colores porque quiero tener distintas paletas para las distintas páginas, o al menos ese es el plan hasta hoy, quizá no lo haga y cambie de opinión para mañana.
+</p>
+
+<p>
+Además estoy calando distintos Window Managers.
+Llevo mucho usando
+<a href="https://dwm.suckless.org/" target="_blank">dwm</a>
+y me gustaría cambiarle un poquito.
+Entonces voy a estar
+<em>riceando</em>
+por semana uno y ya a ver con cual me quedo.
+</p>
+
+<p>
+Como no uso Display Managers decidí hacer un scriptillo que corra en el
+<code>.bashrc</code>
+para elegir el Window Manager que quieras.
+Eso lo pueden encontrar en
+<a href="https://github.com/mathsposer/independent-dots/blob/main/.bashrc" target="_blank">en las últimas líneas de esto</a>.
+</p>
+
+<p>
+Y por el momento es todo lo que hice hoy.
+Esperemos el siguiente fin de semana también tener el tiempo que tuve hoy y seguirle dando.
+</p>
+]]></content:encoded>
+</item>
+
+	</channel>
+</rss>

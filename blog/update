@@ -1,0 +1,2 @@
+#!/bin/bash
+rsync -avrP --delete-after --exclude={'update','lb'} ./ soopari@lmcj.xyz:/var/www/blog

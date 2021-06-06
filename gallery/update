@@ -1,0 +1,2 @@
+#!/bin/bash
+rsync -avrP --delete-after --exclude={'update'} ./ soopari@lmcj.xyz:/var/www/gallery
