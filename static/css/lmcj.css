@@ -19,17 +19,24 @@
   --nord13: #ebcb8b;
   --nord14: #a3be8c;
   --nord15: #b48ead;
+
+  /*Paleta*/
+  --fondo: #2e3440;
+  --texto: #eceff4;
+  --encabezados: #b48ead;
+  --detalles: #d08770;
+
   font-family: Verdana, Geneva, sans-serif;
   font-size: larger;
 }
 
 html {
-  background: var(--nord3);
+  background: var(--fondo);
 }
 
 body {
-  background: var(--nord0);
-  color: var(--nord4);
+  background: var(--fondo);
+  color: var(--texto);
 
   max-width: 800px;
   margin-left: auto;
@@ -38,27 +45,27 @@ body {
   padding-right: 10px;
   padding-bottom: 10px;
 
-  border: 5px outset var(--nord4);
+  border: 5px outset var(--detalles);
 }
 
 a {
-  color: var(--nord15);
+  color: var(--detalles);
 }
 
 a:hover {
-  color: var(--nord10);
+  color: var(--encabezados);
 }
 
 h1 {
-  color: var(--nord11);
+  color: var(--encabezados);
 }
 
 h2 {
-  color: var(--nord12);
+  color: var(--encabezados);
 }
 
 h3 {
-  color: var(--nord13);
+  color: var(--encabezados);
 }
 
 nav {
