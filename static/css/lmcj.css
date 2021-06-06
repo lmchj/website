@@ -25,6 +25,7 @@
   --texto: #eceff4;
   --encabezados: #b48ead;
   --detalles: #d08770;
+  --enlaces: #ebcb8b;
 
   font-family: Verdana, Geneva, sans-serif;
   font-size: larger;
@@ -49,7 +50,7 @@ body {
 }
 
 a {
-  color: var(--detalles);
+  color: var(--enlaces);
 }
 
 a:hover {
